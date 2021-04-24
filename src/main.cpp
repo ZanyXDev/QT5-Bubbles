@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
         for (int i = 0; i < BUBBLES_AMOUNT; ++i)
         {
             BubbleItem *bubble = new BubbleItem();
-            bubble->setBubblePixmap(QPixmap(":/images/bubble.png"));
+            bubble->setBubblePixmap(QPixmap(":/res/images/bubble.png"));
             scene.addItem(bubble);
 
             // Будем давать пузырю случайные координаты до тех пор

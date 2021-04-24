@@ -12,12 +12,12 @@ CONFIG += c++17
 
 include(gitversion.pri)
 
-SOURCES += 
+SOURCES += \
     src/main.cpp\
-    src/bubbleitem.cpp \
-    src/mainwidget.cpp
+    src/mainwidget.cpp \
+    src/bubbleitem.cpp
 
-HEADERS  += 
+HEADERS  += \
     src/mainwidget.h \
     src/bubbleitem.h
 
